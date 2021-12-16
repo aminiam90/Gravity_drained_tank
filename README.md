@@ -30,8 +30,11 @@ Simply set the set point below the system model, and click on the 'simulate' but
 
 What model is used for the Gravity drained Tank? 
 
+
 dh(1)=(-2.5*(h(1))^(0.5)+inlet)/10;
+
 dh(2)=(2.5*h(1)^(0.5)-2.5*(h(2))^(0.5)-dis)/10;
+
 
 where h(1) is the level of upper tank, h(2) is the level of lower tank, inlet is the 'inlet flowrate' of the upper tank, dist is the 'outlet flowrate' of the bottom tank.
 Other constatn parameters are related to the size of the tanks. 
